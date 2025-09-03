@@ -12,9 +12,8 @@ def main ():
 
 
 def debug():
-
-
-    chat_to_speech("Wisdom runes spawning.")
+    clock = lib.timers.Clock.Clock()
+    # chat_to_speech("Wisdom runes spawning.")
 
 def chat_to_speech(text):
     # Convert text to speech
@@ -23,5 +22,5 @@ def chat_to_speech(text):
     tts.save(filename)
 
 
-#debug()
+# debug()
 main()

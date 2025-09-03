@@ -13,7 +13,7 @@ class Clock:
         self.last_time_line_creeps_spawned = None
         self.last_time_rune_spawned = None
         self.last_time_bounty_rune_spawned = None
-        self.last_time_experience_rune_spawned = None
+        self.last_time_wisdom_rune_spawned = None
         self.last_time_lotus_spawned = None
         self.last_time_tormentor_spawned = None
         self.last_time_forrest_creeps_spawned = None
@@ -60,42 +60,56 @@ class Clock:
             self.last_time_forrest_creeps_spawned = total_seconds
             lib.logger.info("Forrest creeps spawned", 4)
             self.play_sound(self.forrest_creeps_spawning_sound_path)
+            return True
+        return False
 
     def check_rune_spawn(self, total_seconds, m):
         if total_seconds % RUNE_SPAWN_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_rune_spawned != total_seconds:
             self.last_time_rune_spawned = total_seconds
             lib.logger.info("Runes spawned", 4)
             self.play_sound(self.runes_spawning_sound_path)
+            return True
+        return False
 
     def check_wisdom_rune_spawn(self, total_seconds, m):
-        if total_seconds % WISDOM_RUNE_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_experience_rune_spawned != total_seconds:
-            self.last_time_experience_rune_spawned = total_seconds
+        if total_seconds % WISDOM_RUNE_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_wisdom_rune_spawned != total_seconds:
+            self.last_time_wisdom_rune_spawned = total_seconds
             lib.logger.info("Wisdom runes spawned", 4)
             self.play_sound(self.wisdom_rune_spawning_sound_path)
+            return True
+        return False
 
     def check_lotus_spawn(self, total_seconds, m):
         if total_seconds % LOTUS_SPAWN_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_lotus_spawned != total_seconds:
             self.last_time_lotus_spawned = total_seconds
             lib.logger.info("Lotuses spawned", 4)
             self.play_sound(self.lotus_spawning_sound_path)
+            return True
+        return False
 
     def check_tormentor_spawn(self, total_seconds, m):
         if total_seconds % TORMENTOR_SPAWN_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_tormentor_spawned != total_seconds:
             self.last_time_tormentor_spawned = total_seconds
             lib.logger.info("Tormentors spawned", 4)
             self.play_sound(self.tormentor_spawning_sound_path)
+            return True
+        return False
 
     def check_bounty_rune_spawn(self, total_seconds):
         if total_seconds % BOUNTY_RUNE_SPAWN_FREQUENCY_IN_SECONDS == 0 and self.last_time_bounty_rune_spawned != total_seconds:
             self.last_time_bounty_rune_spawned = total_seconds
             lib.logger.info("Bounty runes spawned", 4)
             self.play_sound(self.bounty_rune_spawning_sound_path)
+            return True
+        return False
 
     def check_lane_creep_spawn(self, total_seconds):
         if total_seconds % LANE_CREEPS_SPAWN_FREQUENCY_IN_SECONDS == 0 and self.last_time_line_creeps_spawned != total_seconds:
             self.last_time_line_creeps_spawned = total_seconds
             lib.logger.info("Lane creeps spawned", 4)
             self.play_sound(self.lane_creeps_spawning_sound_path)
+            return True
+        return False
 
     def play_sound(self, sound):
         h, m, s, total = self.get_time_in_hours_minutes_seconds_and_total_seconds_passed()
