@@ -1,1 +1,403 @@
 ""
+[*][03/09/25 13:46:38] Lane creeps spawned
+[*][03/09/25 13:46:38] Internal timer is 00:00:00
+[*][03/09/25 13:46:38] BEEP
+[*][03/09/25 13:46:38] Runes spawned
+[*][03/09/25 13:46:38] Internal timer is 00:00:00
+[*][03/09/25 13:46:38] BEEP
+[*][03/09/25 13:47:08] Lane creeps spawned
+[*][03/09/25 13:47:08] Internal timer is 00:00:30
+[*][03/09/25 13:47:08] BEEP
+[*][03/09/25 13:47:38] Lane creeps spawned
+[*][03/09/25 13:47:38] Internal timer is 00:01:00
+[*][03/09/25 13:47:38] BEEP
+[*][03/09/25 13:47:38] Forrest creeps spawned
+[*][03/09/25 13:47:38] Internal timer is 00:01:00
+[*][03/09/25 13:47:38] BEEP
+[*][03/09/25 13:47:38] Forrest creeps spawned
+[*][03/09/25 13:47:38] Internal timer is 00:01:00
+[*][03/09/25 13:47:38] BEEP
+[*][03/09/25 13:48:08] Lane creeps spawned
+[*][03/09/25 13:48:08] Internal timer is 00:01:30
+[*][03/09/25 13:48:08] BEEP
+[*][03/09/25 13:48:38] Lane creeps spawned
+[*][03/09/25 13:48:38] Internal timer is 00:02:00
+[*][03/09/25 13:48:38] BEEP
+[*][03/09/25 13:48:38] Forrest creeps spawned
+[*][03/09/25 13:48:38] Internal timer is 00:02:00
+[*][03/09/25 13:48:38] BEEP
+[*][03/09/25 13:48:38] Runes spawned
+[*][03/09/25 13:48:38] Internal timer is 00:02:00
+[*][03/09/25 13:48:38] BEEP
+[*][03/09/25 13:48:38] Forrest creeps spawned
+[*][03/09/25 13:48:38] Internal timer is 00:02:00
+[*][03/09/25 13:48:38] BEEP
+[*][03/09/25 13:48:38] Runes spawned
+[*][03/09/25 13:48:38] Internal timer is 00:02:00
+[*][03/09/25 13:48:38] BEEP
+[*][03/09/25 13:49:08] Lane creeps spawned
+[*][03/09/25 13:49:08] Internal timer is 00:02:30
+[*][03/09/25 13:49:08] BEEP
+[*][03/09/25 13:49:38] Lane creeps spawned
+[*][03/09/25 13:49:38] Internal timer is 00:03:00
+[*][03/09/25 13:49:38] BEEP
+[*][03/09/25 13:49:38] Forrest creeps spawned
+[*][03/09/25 13:49:38] Internal timer is 00:03:00
+[*][03/09/25 13:49:38] BEEP
+[*][03/09/25 13:50:08] Lane creeps spawned
+[*][03/09/25 13:50:08] Internal timer is 00:00:00
+[*][03/09/25 13:50:08] BEEP
+[*][03/09/25 13:50:08] Runes spawned
+[*][03/09/25 13:50:08] Internal timer is 00:00:00
+[*][03/09/25 13:50:08] BEEP
+[*][03/09/25 13:50:37] Lane creeps spawned
+[*][03/09/25 13:50:37] Internal timer is 00:00:30
+[*][03/09/25 13:50:37] BEEP
+[*][03/09/25 13:51:07] Lane creeps spawned
+[*][03/09/25 13:51:07] Internal timer is 00:01:00
+[*][03/09/25 13:51:07] BEEP
+[*][03/09/25 13:51:07] Forrest creeps spawned
+[*][03/09/25 13:51:07] Internal timer is 00:01:00
+[*][03/09/25 13:51:07] BEEP
+[*][03/09/25 13:51:37] Lane creeps spawned
+[*][03/09/25 13:51:37] Internal timer is 00:01:30
+[*][03/09/25 13:51:37] BEEP
+[*][03/09/25 13:52:07] Lane creeps spawned
+[*][03/09/25 13:52:07] Internal timer is 00:02:00
+[*][03/09/25 13:52:07] BEEP
+[*][03/09/25 13:52:07] Forrest creeps spawned
+[*][03/09/25 13:52:07] Internal timer is 00:02:00
+[*][03/09/25 13:52:07] BEEP
+[*][03/09/25 13:52:07] Runes spawned
+[*][03/09/25 13:52:07] Internal timer is 00:02:00
+[*][03/09/25 13:52:07] BEEP
+[*][03/09/25 13:52:37] Lane creeps spawned
+[*][03/09/25 13:52:37] Internal timer is 00:02:30
+[*][03/09/25 13:52:37] BEEP
+[*][03/09/25 13:53:07] Lane creeps spawned
+[*][03/09/25 13:53:07] Internal timer is 00:03:00
+[*][03/09/25 13:53:07] BEEP
+[*][03/09/25 13:53:07] Forrest creeps spawned
+[*][03/09/25 13:53:07] Internal timer is 00:03:00
+[*][03/09/25 13:53:07] BEEP
+[*][03/09/25 18:32:15] Lane creeps spawned
+[*][03/09/25 18:32:15] Internal timer is  0:  0:  0
+[*][03/09/25 18:32:15] Runes spawned
+[*][03/09/25 18:32:15] Internal timer is  0:  0:  0
+[*][03/09/25 18:32:45] Lane creeps spawned
+[*][03/09/25 18:32:45] Internal timer is  0:  0:  30
+[*][03/09/25 18:33:15] Lane creeps spawned
+[*][03/09/25 18:33:15] Internal timer is  0:  1:  0
+[*][03/09/25 18:33:15] Forrest creeps spawned
+[*][03/09/25 18:33:15] Internal timer is  0:  1:  0
+[*][03/09/25 18:33:45] Lane creeps spawned
+[*][03/09/25 18:33:45] Internal timer is  0:  1:  30
+[*][03/09/25 18:39:41] Lane creeps spawned
+[*][03/09/25 18:39:41] Internal timer is  0:  0:  0
+[*][03/09/25 18:40:46] Lane creeps spawned
+[*][03/09/25 18:40:46] Internal timer is  0:  0:  0
+[*][03/09/25 18:40:47] Runes spawned
+[*][03/09/25 18:40:47] Internal timer is  0:  0:  1
+[*][03/09/25 18:41:45] Lane creeps spawned
+[*][03/09/25 18:41:45] Internal timer is  0:  0:  0
+[*][03/09/25 18:41:46] Runes spawned
+[*][03/09/25 18:41:46] Internal timer is  0:  0:  1
+[*][03/09/25 18:42:40] Lane creeps spawned
+[*][03/09/25 18:42:40] Internal timer is  0:  0:  0
+[*][03/09/25 18:42:41] Runes spawned
+[*][03/09/25 18:42:41] Internal timer is  0:  0:  1
+[*][03/09/25 18:43:10] Lane creeps spawned
+[*][03/09/25 18:43:10] Internal timer is  0:  0:  30
+[*][03/09/25 18:51:41] Lane creeps spawned
+[*][03/09/25 18:51:41] Internal timer is  0:  0:  0
+[*][03/09/25 18:51:42] Runes spawned
+[*][03/09/25 18:51:42] Internal timer is  0:  0:  1
+[*][03/09/25 18:52:11] Lane creeps spawned
+[*][03/09/25 18:52:11] Internal timer is  0:  0:  30
+[*][03/09/25 18:52:40] Lane creeps spawned
+[*][03/09/25 18:52:40] Internal timer is  0:  1:  0
+[*][03/09/25 18:52:41] Forrest creeps spawned
+[*][03/09/25 18:52:41] Internal timer is  0:  1:  0
+[*][03/09/25 18:53:11] Lane creeps spawned
+[*][03/09/25 18:53:11] Internal timer is  0:  1:  30
+[*][03/09/25 18:53:40] Lane creeps spawned
+[*][03/09/25 18:53:40] Internal timer is  0:  2:  0
+[*][03/09/25 18:53:41] Forrest creeps spawned
+[*][03/09/25 18:53:41] Internal timer is  0:  2:  0
+[*][03/09/25 18:53:41] Runes spawned
+[*][03/09/25 18:53:41] Internal timer is  0:  2:  1
+[*][03/09/25 18:54:11] Lane creeps spawned
+[*][03/09/25 18:54:11] Internal timer is  0:  2:  30
+[*][03/09/25 18:54:40] Lane creeps spawned
+[*][03/09/25 18:54:40] Internal timer is  0:  3:  0
+[*][03/09/25 18:54:41] Forrest creeps spawned
+[*][03/09/25 18:54:41] Internal timer is  0:  3:  0
+[*][03/09/25 18:54:41] Bounty runes spawned
+[*][03/09/25 18:54:41] Internal timer is  0:  3:  1
+[*][03/09/25 18:55:11] Lane creeps spawned
+[*][03/09/25 18:55:11] Internal timer is  0:  3:  30
+[*][03/09/25 18:55:40] Lane creeps spawned
+[*][03/09/25 18:55:40] Internal timer is  0:  4:  0
+[*][03/09/25 18:55:41] Forrest creeps spawned
+[*][03/09/25 18:55:41] Internal timer is  0:  4:  0
+[*][03/09/25 18:55:41] Runes spawned
+[*][03/09/25 18:55:41] Internal timer is  0:  4:  1
+[*][03/09/25 18:56:11] Lane creeps spawned
+[*][03/09/25 18:56:11] Internal timer is  0:  4:  30
+[*][03/09/25 18:56:40] Lane creeps spawned
+[*][03/09/25 18:56:40] Internal timer is  0:  5:  0
+[*][03/09/25 18:56:41] Forrest creeps spawned
+[*][03/09/25 18:56:41] Internal timer is  0:  5:  0
+[*][03/09/25 18:57:11] Lane creeps spawned
+[*][03/09/25 18:57:11] Internal timer is  0:  5:  30
+[*][03/09/25 18:57:40] Lane creeps spawned
+[*][03/09/25 18:57:40] Internal timer is  0:  6:  0
+[*][03/09/25 18:57:41] Forrest creeps spawned
+[*][03/09/25 18:57:41] Internal timer is  0:  6:  0
+[*][03/09/25 18:57:41] Runes spawned
+[*][03/09/25 18:57:41] Internal timer is  0:  6:  1
+[*][03/09/25 18:58:10] Lane creeps spawned
+[*][03/09/25 18:58:10] Internal timer is  0:  6:  30
+[*][03/09/25 18:58:41] Lane creeps spawned
+[*][03/09/25 18:58:41] Internal timer is  0:  7:  0
+[*][03/09/25 18:58:41] Forrest creeps spawned
+[*][03/09/25 18:58:41] Internal timer is  0:  7:  0
+[*][03/09/25 18:58:42] Wisdom runes spawned
+[*][03/09/25 18:58:42] Internal timer is  0:  7:  1
+[*][03/09/25 18:59:10] Lane creeps spawned
+[*][03/09/25 18:59:10] Internal timer is  0:  7:  30
+[*][03/09/25 18:59:41] Lane creeps spawned
+[*][03/09/25 18:59:41] Internal timer is  0:  8:  0
+[*][03/09/25 18:59:41] Forrest creeps spawned
+[*][03/09/25 18:59:41] Internal timer is  0:  8:  0
+[*][03/09/25 18:59:42] Runes spawned
+[*][03/09/25 18:59:42] Internal timer is  0:  8:  1
+[*][03/09/25 19:00:10] Lane creeps spawned
+[*][03/09/25 19:00:10] Internal timer is  0:  8:  30
+[*][03/09/25 19:00:41] Lane creeps spawned
+[*][03/09/25 19:00:41] Internal timer is  0:  9:  0
+[*][03/09/25 19:00:41] Forrest creeps spawned
+[*][03/09/25 19:00:41] Internal timer is  0:  9:  0
+[*][03/09/25 19:00:42] Bounty runes spawned
+[*][03/09/25 19:00:42] Internal timer is  0:  9:  1
+[*][03/09/25 19:01:11] Lane creeps spawned
+[*][03/09/25 19:01:11] Internal timer is  0:  9:  30
+[*][03/09/25 19:01:40] Lane creeps spawned
+[*][03/09/25 19:01:40] Internal timer is  0:  10:  0
+[*][03/09/25 19:01:41] Forrest creeps spawned
+[*][03/09/25 19:01:41] Internal timer is  0:  10:  0
+[*][03/09/25 19:01:41] Runes spawned
+[*][03/09/25 19:01:41] Internal timer is  0:  10:  0
+[*][03/09/25 19:02:10] Lane creeps spawned
+[*][03/09/25 19:02:10] Internal timer is  0:  10:  30
+[*][03/09/25 19:02:41] Lane creeps spawned
+[*][03/09/25 19:02:41] Internal timer is  0:  11:  0
+[*][03/09/25 19:02:41] Forrest creeps spawned
+[*][03/09/25 19:02:41] Internal timer is  0:  11:  0
+[*][03/09/25 19:03:10] Lane creeps spawned
+[*][03/09/25 19:03:10] Internal timer is  0:  11:  30
+[*][03/09/25 19:03:41] Lane creeps spawned
+[*][03/09/25 19:03:41] Internal timer is  0:  12:  0
+[*][03/09/25 19:03:41] Forrest creeps spawned
+[*][03/09/25 19:03:41] Internal timer is  0:  12:  0
+[*][03/09/25 19:03:42] Runes spawned
+[*][03/09/25 19:03:42] Internal timer is  0:  12:  1
+[*][03/09/25 19:04:10] Lane creeps spawned
+[*][03/09/25 19:04:10] Internal timer is  0:  12:  30
+[*][03/09/25 19:04:41] Lane creeps spawned
+[*][03/09/25 19:04:41] Internal timer is  0:  13:  0
+[*][03/09/25 19:04:41] Forrest creeps spawned
+[*][03/09/25 19:04:41] Internal timer is  0:  13:  0
+[*][03/09/25 19:05:10] Lane creeps spawned
+[*][03/09/25 19:05:10] Internal timer is  0:  13:  30
+[*][03/09/25 19:05:41] Lane creeps spawned
+[*][03/09/25 19:05:41] Internal timer is  0:  14:  0
+[*][03/09/25 19:05:41] Forrest creeps spawned
+[*][03/09/25 19:05:41] Internal timer is  0:  14:  0
+[*][03/09/25 19:05:42] Runes spawned
+[*][03/09/25 19:05:42] Internal timer is  0:  14:  1
+[*][03/09/25 19:06:10] Lane creeps spawned
+[*][03/09/25 19:06:10] Internal timer is  0:  14:  30
+[*][03/09/25 19:06:41] Lane creeps spawned
+[*][03/09/25 19:06:41] Internal timer is  0:  15:  0
+[*][03/09/25 19:06:41] Forrest creeps spawned
+[*][03/09/25 19:06:41] Internal timer is  0:  15:  0
+[*][03/09/25 19:06:42] Bounty runes spawned
+[*][03/09/25 19:06:42] Internal timer is  0:  15:  1
+[*][03/09/25 19:07:11] Lane creeps spawned
+[*][03/09/25 19:07:11] Internal timer is  0:  15:  30
+[*][03/09/25 19:07:40] Lane creeps spawned
+[*][03/09/25 19:07:40] Internal timer is  0:  16:  0
+[*][03/09/25 19:07:41] Forrest creeps spawned
+[*][03/09/25 19:07:41] Internal timer is  0:  16:  0
+[*][03/09/25 19:07:41] Runes spawned
+[*][03/09/25 19:07:41] Internal timer is  0:  16:  1
+[*][03/09/25 19:08:11] Lane creeps spawned
+[*][03/09/25 19:08:11] Internal timer is  0:  16:  30
+[*][03/09/25 19:08:40] Lane creeps spawned
+[*][03/09/25 19:08:40] Internal timer is  0:  17:  0
+[*][03/09/25 19:08:41] Forrest creeps spawned
+[*][03/09/25 19:08:41] Internal timer is  0:  17:  0
+[*][03/09/25 19:09:10] Lane creeps spawned
+[*][03/09/25 19:09:10] Internal timer is  0:  17:  30
+[*][03/09/25 19:09:40] Lane creeps spawned
+[*][03/09/25 19:09:40] Internal timer is  0:  18:  0
+[*][03/09/25 19:09:41] Forrest creeps spawned
+[*][03/09/25 19:09:41] Internal timer is  0:  18:  1
+[*][03/09/25 19:09:42] Runes spawned
+[*][03/09/25 19:09:42] Internal timer is  0:  18:  1
+[*][03/09/25 19:10:10] Lane creeps spawned
+[*][03/09/25 19:10:10] Internal timer is  0:  18:  30
+[*][03/09/25 19:10:41] Lane creeps spawned
+[*][03/09/25 19:10:41] Internal timer is  0:  19:  0
+[*][03/09/25 19:10:41] Forrest creeps spawned
+[*][03/09/25 19:10:41] Internal timer is  0:  19:  0
+[*][03/09/25 19:11:10] Lane creeps spawned
+[*][03/09/25 19:11:10] Internal timer is  0:  19:  30
+[*][03/09/25 19:11:41] Lane creeps spawned
+[*][03/09/25 19:11:41] Internal timer is  0:  20:  0
+[*][03/09/25 19:11:41] Forrest creeps spawned
+[*][03/09/25 19:11:41] Internal timer is  0:  20:  0
+[*][03/09/25 19:11:42] Runes spawned
+[*][03/09/25 19:11:42] Internal timer is  0:  20:  1
+[*][03/09/25 19:12:10] Lane creeps spawned
+[*][03/09/25 19:12:10] Internal timer is  0:  20:  30
+[*][03/09/25 19:12:41] Lane creeps spawned
+[*][03/09/25 19:12:41] Internal timer is  0:  21:  0
+[*][03/09/25 19:12:41] Forrest creeps spawned
+[*][03/09/25 19:12:41] Internal timer is  0:  21:  0
+[*][03/09/25 19:12:41] Bounty runes spawned
+[*][03/09/25 19:12:41] Internal timer is  0:  21:  1
+[*][03/09/25 19:13:10] Lane creeps spawned
+[*][03/09/25 19:13:10] Internal timer is  0:  21:  30
+[*][03/09/25 19:13:41] Lane creeps spawned
+[*][03/09/25 19:13:41] Internal timer is  0:  22:  0
+[*][03/09/25 19:13:41] Forrest creeps spawned
+[*][03/09/25 19:13:41] Internal timer is  0:  22:  0
+[*][03/09/25 19:13:42] Runes spawned
+[*][03/09/25 19:13:42] Internal timer is  0:  22:  1
+[*][03/09/25 19:14:11] Lane creeps spawned
+[*][03/09/25 19:14:11] Internal timer is  0:  22:  30
+[*][03/09/25 19:14:40] Lane creeps spawned
+[*][03/09/25 19:14:40] Internal timer is  0:  23:  0
+[*][03/09/25 19:14:41] Forrest creeps spawned
+[*][03/09/25 19:14:41] Internal timer is  0:  23:  0
+[*][03/09/25 19:15:11] Lane creeps spawned
+[*][03/09/25 19:15:11] Internal timer is  0:  23:  30
+[*][03/09/25 19:37:26] Lane creeps spawned
+[*][03/09/25 19:37:26] Internal timer is  0:  0:  0
+[*][03/09/25 19:37:26] Bounty runes spawned
+[*][03/09/25 19:37:26] Internal timer is  0:  0:  0
+[*][03/09/25 19:37:56] Lane creeps spawned
+[*][03/09/25 19:37:56] Internal timer is  0:  0:  30
+[*][03/09/25 19:38:26] Lane creeps spawned
+[*][03/09/25 19:38:26] Internal timer is  0:  1:  0
+[*][03/09/25 19:38:26] Forrest creeps spawned
+[*][03/09/25 19:38:26] Internal timer is  0:  1:  0
+[*][03/09/25 19:38:56] Lane creeps spawned
+[*][03/09/25 19:38:56] Internal timer is  0:  1:  30
+[*][03/09/25 19:39:26] Lane creeps spawned
+[*][03/09/25 19:39:26] Internal timer is  0:  2:  0
+[*][03/09/25 19:39:26] Forrest creeps spawned
+[*][03/09/25 19:39:26] Internal timer is  0:  2:  0
+[*][03/09/25 19:39:26] Runes spawned
+[*][03/09/25 19:39:26] Internal timer is  0:  2:  0
+[*][03/09/25 19:39:56] Lane creeps spawned
+[*][03/09/25 19:39:56] Internal timer is  0:  2:  30
+[*][03/09/25 19:40:26] Lane creeps spawned
+[*][03/09/25 19:40:26] Internal timer is  0:  3:  0
+[*][03/09/25 19:40:26] Forrest creeps spawned
+[*][03/09/25 19:40:26] Internal timer is  0:  3:  0
+[*][03/09/25 19:40:26] Bounty runes spawned
+[*][03/09/25 19:40:26] Internal timer is  0:  3:  0
+[*][03/09/25 19:40:56] Lane creeps spawned
+[*][03/09/25 19:40:56] Internal timer is  0:  3:  30
+[*][03/09/25 19:41:26] Lane creeps spawned
+[*][03/09/25 19:41:26] Internal timer is  0:  4:  0
+[*][03/09/25 19:41:26] Forrest creeps spawned
+[*][03/09/25 19:41:26] Internal timer is  0:  4:  0
+[*][03/09/25 19:41:26] Runes spawned
+[*][03/09/25 19:41:26] Internal timer is  0:  4:  0
+[*][03/09/25 19:41:56] Lane creeps spawned
+[*][03/09/25 19:41:56] Internal timer is  0:  4:  30
+[*][03/09/25 19:42:26] Lane creeps spawned
+[*][03/09/25 19:42:26] Internal timer is  0:  5:  0
+[*][03/09/25 19:42:26] Forrest creeps spawned
+[*][03/09/25 19:42:26] Internal timer is  0:  5:  0
+[*][03/09/25 19:42:56] Lane creeps spawned
+[*][03/09/25 19:42:56] Internal timer is  0:  5:  30
+[*][03/09/25 19:43:26] Lane creeps spawned
+[*][03/09/25 19:43:26] Internal timer is  0:  6:  0
+[*][03/09/25 19:43:26] Forrest creeps spawned
+[*][03/09/25 19:43:26] Internal timer is  0:  6:  0
+[*][03/09/25 19:43:26] Runes spawned
+[*][03/09/25 19:43:26] Internal timer is  0:  6:  0
+[*][03/09/25 19:43:56] Lane creeps spawned
+[*][03/09/25 19:43:56] Internal timer is  0:  6:  30
+[*][03/09/25 19:44:26] Lane creeps spawned
+[*][03/09/25 19:44:26] Internal timer is  0:  7:  0
+[*][03/09/25 19:44:26] Forrest creeps spawned
+[*][03/09/25 19:44:26] Internal timer is  0:  7:  0
+[*][03/09/25 19:44:26] Wisdom runes spawned
+[*][03/09/25 19:44:26] Internal timer is  0:  7:  0
+[*][03/09/25 19:44:56] Lane creeps spawned
+[*][03/09/25 19:44:56] Internal timer is  0:  7:  30
+[*][03/09/25 19:45:26] Lane creeps spawned
+[*][03/09/25 19:45:26] Internal timer is  0:  8:  0
+[*][03/09/25 19:45:26] Forrest creeps spawned
+[*][03/09/25 19:45:26] Internal timer is  0:  8:  0
+[*][03/09/25 19:45:26] Runes spawned
+[*][03/09/25 19:45:26] Internal timer is  0:  8:  0
+[*][03/09/25 19:45:56] Lane creeps spawned
+[*][03/09/25 19:45:56] Internal timer is  0:  8:  30
+[*][03/09/25 19:46:26] Lane creeps spawned
+[*][03/09/25 19:46:26] Internal timer is  0:  9:  0
+[*][03/09/25 19:46:26] Forrest creeps spawned
+[*][03/09/25 19:46:26] Internal timer is  0:  9:  0
+[*][03/09/25 19:46:26] Bounty runes spawned
+[*][03/09/25 19:46:26] Internal timer is  0:  9:  0
+[*][03/09/25 19:46:56] Lane creeps spawned
+[*][03/09/25 19:46:56] Internal timer is  0:  9:  30
+[*][03/09/25 19:47:26] Lane creeps spawned
+[*][03/09/25 19:47:26] Internal timer is  0:  10:  0
+[*][03/09/25 19:47:26] Forrest creeps spawned
+[*][03/09/25 19:47:26] Internal timer is  0:  10:  0
+[*][03/09/25 19:47:26] Runes spawned
+[*][03/09/25 19:47:26] Internal timer is  0:  10:  0
+[*][03/09/25 19:47:56] Lane creeps spawned
+[*][03/09/25 19:47:56] Internal timer is  0:  10:  30
+[*][03/09/25 19:48:26] Lane creeps spawned
+[*][03/09/25 19:48:26] Internal timer is  0:  11:  0
+[*][03/09/25 19:48:26] Forrest creeps spawned
+[*][03/09/25 19:48:26] Internal timer is  0:  11:  0
+[*][03/09/25 23:03:26] Lane creeps spawned
+[*][03/09/25 23:03:26] Bounty runes spawned
+[*][03/09/25 23:03:56] Lane creeps spawned
+[*][03/09/25 23:04:26] Lane creeps spawned
+[*][03/09/25 23:04:26] Forrest creeps spawned
+[*][03/09/25 23:04:56] Lane creeps spawned
+[*][03/09/25 23:05:26] Lane creeps spawned
+[*][03/09/25 23:05:26] Forrest creeps spawned
+[*][03/09/25 23:05:26] Runes spawned
+[*][03/09/25 23:09:56] Lane creeps spawned
+[*][03/09/25 23:09:56] Bounty runes spawned
+[*][03/09/25 23:10:26] Lane creeps spawned
+[*][03/09/25 23:10:56] Lane creeps spawned
+[*][03/09/25 23:10:56] Forrest creeps spawned
+[*][03/09/25 23:11:26] Lane creeps spawned
+[*][03/09/25 23:11:56] Lane creeps spawned
+[*][03/09/25 23:11:56] Forrest creeps spawned
+[*][03/09/25 23:11:56] Runes spawned
+[*][03/09/25 23:12:26] Lane creeps spawned
+[*][03/09/25 23:12:56] Lane creeps spawned
+[*][03/09/25 23:12:56] Forrest creeps spawned
+[*][03/09/25 23:12:56] Bounty runes spawned
+[*][03/09/25 23:12:56] Lotuses spawned
+[*][03/09/25 23:13:26] Lane creeps spawned
+[*][03/09/25 23:13:56] Lane creeps spawned
+[*][03/09/25 23:13:56] Forrest creeps spawned
+[*][03/09/25 23:13:56] Runes spawned
+[*][03/09/25 23:14:26] Lane creeps spawned
+[*][03/09/25 23:14:55] Lane creeps spawned
+[*][03/09/25 23:14:55] Forrest creeps spawned
+[*][03/09/25 23:15:25] Lane creeps spawned
