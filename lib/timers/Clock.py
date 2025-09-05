@@ -1,30 +1,51 @@
 import time
 import threading
-from gtts import gTTS
+from playsound3 import playsound
 import lib.logger
 from settings import *
-from playsound3 import playsound
+
+
+class SpawnEvent:
+    def __init__(self, name, frequency, sound_path, require_nonzero_minute=True):
+        self.name = name
+        self.frequency = frequency
+        self.sound_path = sound_path
+        self.require_nonzero_minute = require_nonzero_minute
+        self.last_triggered = None
+
+    def should_trigger(self, total_seconds, minutes):
+        """Check if the event should trigger at this time."""
+        if total_seconds % self.frequency != 0:
+            return False
+        if self.require_nonzero_minute and minutes == 0:
+            return False
+        if self.last_triggered == total_seconds:
+            return False
+        return True
+
+    def trigger(self, total_seconds):
+        """Mark as triggered and log the event."""
+        self.last_triggered = total_seconds
+        lib.logger.info(f"{self.name} spawned", 4)
+        threading.Thread(target=playsound, args=(self.sound_path,), daemon=True).start()
+
 
 class Clock:
     def __init__(self):
         self.start_time = None
         self._stop_flag = False
         self._thread = None
-        self.last_time_line_creeps_spawned = None
-        self.last_time_rune_spawned = None
-        self.last_time_bounty_rune_spawned = None
-        self.last_time_wisdom_rune_spawned = None
-        self.last_time_lotus_spawned = None
-        self.last_time_tormentor_spawned = None
-        self.last_time_forrest_creeps_spawned = None
-        self.sound_file_path = "sounds/alert.mp3"
-        self.bounty_rune_spawning_sound_path = "sounds/bounty_runes_spawning.mp3"
-        self.runes_spawning_sound_path = "sounds/runes_spawning.mp3"
-        self.wisdom_rune_spawning_sound_path = "sounds/wisdom_runes_spawning.mp3"
-        self.forrest_creeps_spawning_sound_path = "sounds/forrest_creeps_spawning.mp3"
-        self.lane_creeps_spawning_sound_path = "sounds/lane_creeps_spawning.mp3"
-        self.lotus_spawning_sound_path = "sounds/lotus_spawning.mp3"
-        self.tormentor_spawning_sound_path = "sounds/tormentor_spawning.mp3"
+
+        # Configure all events here in one place
+        self.events = [
+            SpawnEvent("Lane creeps", LANE_CREEPS_SPAWN_FREQUENCY_IN_SECONDS, "sounds/lane_creeps_spawning.mp3", False),
+            SpawnEvent("Forrest creeps", FORREST_CREEPS_SPAWN_FREQUENCY_IN_SECONDS, "sounds/forrest_creeps_spawning.mp3"),
+            SpawnEvent("Runes", RUNE_SPAWN_FREQUENCY_IN_SECONDS, "sounds/runes_spawning.mp3"),
+            SpawnEvent("Bounty runes", BOUNTY_RUNE_SPAWN_FREQUENCY_IN_SECONDS, "sounds/bounty_runes_spawning.mp3", False),
+            SpawnEvent("Wisdom runes", WISDOM_RUNE_FREQUENCY_IN_SECONDS, "sounds/wisdom_runes_spawning.mp3"),
+            SpawnEvent("Lotus", LOTUS_SPAWN_FREQUENCY_IN_SECONDS, "sounds/lotus_spawning.mp3"),
+            SpawnEvent("Tormentor", TORMENTOR_SPAWN_FREQUENCY_IN_SECONDS, "sounds/tormentor_spawning.mp3"),
+        ]
 
     def start(self):
         self.start_time = time.time()
@@ -37,83 +58,19 @@ class Clock:
             raise ValueError("Timer has not been started yet.")
         return round(time.time() - self.start_time)
 
-    def get_time_in_hours_minutes_seconds_and_total_seconds_passed(self):
-        total_seconds = round(self.elapsed())
+    def get_time(self):
+        total_seconds = self.elapsed()
         hours, remainder = divmod(total_seconds, 3600)
         minutes, seconds = divmod(remainder, 60)
         return hours, minutes, seconds, total_seconds
 
     def _check_loop(self):
         while not self._stop_flag:
-            h, m, s, total_seconds = self.get_time_in_hours_minutes_seconds_and_total_seconds_passed()
-            self.check_lane_creep_spawn(total_seconds)
-            self.check_forrest_creep_spawn(total_seconds, m)
-            self.check_rune_spawn(total_seconds, m)
-            self.check_bounty_rune_spawn(total_seconds)
-            self.check_tormentor_spawn(total_seconds, m)
-            self.check_lotus_spawn(total_seconds, m)
-            self.check_wisdom_rune_spawn(total_seconds, m)
+            h, m, s, total_seconds = self.get_time()
+            for event in self.events:
+                if event.should_trigger(total_seconds, m):
+                    event.trigger(total_seconds)
             time.sleep(0.4)
 
-    def check_forrest_creep_spawn(self, total_seconds, m):
-        if total_seconds % FORREST_CREEPS_SPAWN_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_forrest_creeps_spawned != total_seconds:
-            self.last_time_forrest_creeps_spawned = total_seconds
-            lib.logger.info("Forrest creeps spawned", 4)
-            self.play_sound(self.forrest_creeps_spawning_sound_path)
-            return True
-        return False
-
-    def check_rune_spawn(self, total_seconds, m):
-        if total_seconds % RUNE_SPAWN_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_rune_spawned != total_seconds:
-            self.last_time_rune_spawned = total_seconds
-            lib.logger.info("Runes spawned", 4)
-            self.play_sound(self.runes_spawning_sound_path)
-            return True
-        return False
-
-    def check_wisdom_rune_spawn(self, total_seconds, m):
-        if total_seconds % WISDOM_RUNE_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_wisdom_rune_spawned != total_seconds:
-            self.last_time_wisdom_rune_spawned = total_seconds
-            lib.logger.info("Wisdom runes spawned", 4)
-            self.play_sound(self.wisdom_rune_spawning_sound_path)
-            return True
-        return False
-
-    def check_lotus_spawn(self, total_seconds, m):
-        if total_seconds % LOTUS_SPAWN_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_lotus_spawned != total_seconds:
-            self.last_time_lotus_spawned = total_seconds
-            lib.logger.info("Lotuses spawned", 4)
-            self.play_sound(self.lotus_spawning_sound_path)
-            return True
-        return False
-
-    def check_tormentor_spawn(self, total_seconds, m):
-        if total_seconds % TORMENTOR_SPAWN_FREQUENCY_IN_SECONDS == 0 and m != 0 and self.last_time_tormentor_spawned != total_seconds:
-            self.last_time_tormentor_spawned = total_seconds
-            lib.logger.info("Tormentors spawned", 4)
-            self.play_sound(self.tormentor_spawning_sound_path)
-            return True
-        return False
-
-    def check_bounty_rune_spawn(self, total_seconds):
-        if total_seconds % BOUNTY_RUNE_SPAWN_FREQUENCY_IN_SECONDS == 0 and self.last_time_bounty_rune_spawned != total_seconds:
-            self.last_time_bounty_rune_spawned = total_seconds
-            lib.logger.info("Bounty runes spawned", 4)
-            self.play_sound(self.bounty_rune_spawning_sound_path)
-            return True
-        return False
-
-    def check_lane_creep_spawn(self, total_seconds):
-        if total_seconds % LANE_CREEPS_SPAWN_FREQUENCY_IN_SECONDS == 0 and self.last_time_line_creeps_spawned != total_seconds:
-            self.last_time_line_creeps_spawned = total_seconds
-            lib.logger.info("Lane creeps spawned", 4)
-            self.play_sound(self.lane_creeps_spawning_sound_path)
-            return True
-        return False
-
-    def play_sound(self, sound):
-        h, m, s, total = self.get_time_in_hours_minutes_seconds_and_total_seconds_passed()
-        # lib.logger.info(f"Internal timer is {h: 02}: {m: 02}: {s: 02}", 4)
-        threading.Thread(target=playsound, args=(sound,), daemon=True).start()
-
-
+    def stop(self):
+        self._stop_flag = True
