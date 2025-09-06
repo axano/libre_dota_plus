@@ -1292,3 +1292,17 @@
 [*][06/09/25 13:15:23] Bounty runes spawned
 [*][06/09/25 13:15:26] Stopping clock.
 [+][06/09/25 13:15:26] Clock stopped.
+[*][06/09/25 13:19:51] Loading settings
+[+][06/09/25 13:19:51] Settings loaded
+[*][06/09/25 13:20:21] Loading settings
+[+][06/09/25 13:20:21] Settings loaded
+[*][06/09/25 13:20:53] Loading settings
+[+][06/09/25 13:20:53] Settings loaded
+[*][06/09/25 13:21:21] Loading settings
+[+][06/09/25 13:21:21] Settings loaded
+[*][06/09/25 13:21:27] Loading settings
+[+][06/09/25 13:21:27] Settings loaded
+[*][06/09/25 13:21:40] Saving settings
+[+][06/09/25 13:21:40] Settings saved
+[*][06/09/25 13:21:41] Saving settings
+[+][06/09/25 13:21:41] Settings saved

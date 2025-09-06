@@ -118,14 +118,14 @@ class ClockGUI:
 
         for i, event in enumerate(self.clock.events):
             frame = tk.Frame(events_frame)
-            frame.grid(row=i, column=0, sticky="w", padx=10, pady=5)
+            frame.grid(row=i, column=0, sticky="w", padx=10, pady=10)
 
             # Light label
             label = tk.Label(
                 frame,
                 text=event.name,
                 width=20,
-                height=2,
+                height=3,
                 bg="gray",
                 fg="white",
                 font=("Arial", 12, "bold")
