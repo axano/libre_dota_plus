@@ -1,0 +1,30 @@
+{
+  "Lane creeps": {
+    "sound": false,
+    "margin": true
+  },
+  "Forrest creeps": {
+    "sound": true,
+    "margin": true
+  },
+  "Runes": {
+    "sound": true,
+    "margin": true
+  },
+  "Bounty runes": {
+    "sound": true,
+    "margin": true
+  },
+  "Wisdom runes": {
+    "sound": true,
+    "margin": true
+  },
+  "Lotus": {
+    "sound": true,
+    "margin": true
+  },
+  "Tormentor": {
+    "sound": true,
+    "margin": true
+  }
+}
