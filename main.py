@@ -40,17 +40,20 @@ class ClockGUI:
 
         # Track whether clock is running
         self.clock_running = False
-
+        self.timer_var = tk.StringVar(value="00:00:00")
+        """
+        # Timer display
+        
+        self.timer_label = tk.Label(
+            self.root, textvariable=self.timer_var,
+            font=("Arial", 18, "bold"), fg="black"
+        )
+        self.timer_label.pack(pady=10)
+        """
         # Build UI
         self.build_ui()
 
-        # Timer display
-        self.timer_var = tk.StringVar(value="00:00:00")
-        self.timer_label = tk.Label(
-            self.root, textvariable=self.timer_var,
-            font=("Arial", 16, "bold"), fg="black"
-        )
-        self.timer_label.pack(pady=10)
+
 
     def build_ui(self):
         """Create lights, checkboxes, and start/reset buttons."""
@@ -70,6 +73,26 @@ class ClockGUI:
             command=self.reset_clock, bg="red", fg="white"
         )
         reset_btn.pack(side="left", padx=10)
+
+        # Timer increment/decrement buttons
+        timer_controls = tk.Frame(self.root)
+        timer_controls.pack(pady=10)
+
+        decrease_btn = tk.Button(timer_controls, text="−", font=("Arial", 14, "bold"),
+                                 command=lambda: [self.clock.adjust_timer(-1), self.update_timer()])
+        decrease_btn.pack(side="left", padx=5)
+
+        timer_label = tk.Label(timer_controls, textvariable=self.timer_var,
+                               font=("Arial", 18, "bold"), fg="black")
+        timer_label.pack(side="left", padx=5)
+
+        increase_btn = tk.Button(timer_controls, text="+", font=("Arial", 14, "bold"),
+                                 command=lambda: [self.clock.adjust_timer(1), self.update_timer()])
+        increase_btn.pack(side="left", padx=5)
+
+        # Frame for events
+        events_frame = tk.Frame(self.root)
+        events_frame.pack(pady=10)
 
         # Frame for events
         events_frame = tk.Frame(self.root)
@@ -97,11 +120,11 @@ class ClockGUI:
             checkbox_sound.pack(side="left")
 
             # Checkbox for margin of safety
-            margin_var = tk.BooleanVar(value=True)
-            checkbox_margin = tk.Checkbutton(frame, text="Margin of Safety", variable=margin_var)
+            early_warning = tk.BooleanVar(value=True)
+            checkbox_margin = tk.Checkbutton(frame, text="Early warning", variable=early_warning)
             checkbox_margin.pack(side="left")
 
-            self.widgets[event.name] = (label, sound_var, margin_var, event)
+            self.widgets[event.name] = (label, sound_var, early_warning, event)
 
     def start_clock(self):
         """Start the game clock when button is pressed."""
@@ -166,7 +189,7 @@ class ClockGUI:
 
     def flash_light(self, widget, color):
         """Flash the widget background with a given color."""
-        def toggle_color(count=4):
+        def toggle_color(count=5):
             if count > 0:
                 current_color = widget.cget("bg")
                 new_color = color if current_color == "gray" else "gray"
@@ -184,5 +207,4 @@ def main():
     root.mainloop()
 
 
-if __name__ == "__main__":
-    main()
+main()

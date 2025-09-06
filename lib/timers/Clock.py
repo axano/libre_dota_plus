@@ -78,3 +78,9 @@ class Clock:
         lib.logger.info("Stopping clock.", 4)
         self._stop_flag = True
         lib.logger.success("Clock stopped.", 1)
+
+    def adjust_timer(self, seconds):
+        """Increase or decrease the clock time by a number of seconds."""
+        if self.start_time:
+            self.start_time -= seconds  # moving start time backward/forward changes elapsed
+
