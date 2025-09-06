@@ -1,5 +1,5 @@
 APP_NAME = "Libre Dota2 Plus"
-LOG_PATH = 'logs/logs.txt'
+LOG_PATH = 'logs.txt'
 SETTINGS_FILE = "event_settings.json"
 LANE_CREEPS_SPAWN_FREQUENCY_IN_SECONDS = 30
 FORREST_CREEPS_SPAWN_FREQUENCY_IN_SECONDS = 60

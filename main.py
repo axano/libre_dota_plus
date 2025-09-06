@@ -9,8 +9,6 @@ from playsound3 import playsound
 import lib.logger
 
 
-
-
 def load_settings():
     """Load saved checkbox states from file."""
     lib.logger.info("Loading settings", 4)
