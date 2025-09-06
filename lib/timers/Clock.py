@@ -48,10 +48,12 @@ class Clock:
         ]
 
     def start(self):
+        lib.logger.info("Starting clock.", 4)
         self.start_time = time.time()
         self._stop_flag = False
         self._thread = threading.Thread(target=self._check_loop, daemon=True)
         self._thread.start()
+        lib.logger.success("Clock Started.", 1)
 
     def elapsed(self):
         if self.start_time is None:
@@ -73,4 +75,6 @@ class Clock:
             time.sleep(0.4)
 
     def stop(self):
+        lib.logger.info("Stopping clock.", 4)
         self._stop_flag = True
+        lib.logger.success("Clock stopped.", 1)

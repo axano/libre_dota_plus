@@ -774,3 +774,354 @@
 [*][03/09/25 23:51:14] Wisdom runes spawned
 [*][03/09/25 23:51:14] Bounty runes spawned
 [*][03/09/25 23:51:14] Wisdom runes spawned
+[*][04/09/25 12:47:29] Running test_Clock_ticks_when_started()
+[*][04/09/25 12:47:29] Lane creeps spawned
+[*][04/09/25 12:47:29] Bounty runes spawned
+[*][04/09/25 12:47:31] Running test_check_bounty_rune_spawn()
+[*][04/09/25 12:47:31] Lane creeps spawned
+[*][04/09/25 12:47:31] Running test_check_forrest_creeps_spawned()
+[*][04/09/25 12:47:31] Bounty runes spawned
+[*][04/09/25 12:47:31] Lane creeps spawned
+[*][04/09/25 12:47:31] Forrest creeps spawned
+[*][04/09/25 12:47:31] Bounty runes spawned
+[*][04/09/25 12:47:31] Forrest creeps spawned
+[*][04/09/25 12:47:31] Running test_check_lotus_spawn()
+[*][04/09/25 12:47:31] Lane creeps spawned
+[*][04/09/25 12:47:31] Lotuses spawned
+[*][04/09/25 12:47:31] Bounty runes spawned
+[*][04/09/25 12:47:31] Lotuses spawned
+[*][04/09/25 12:47:31] Running test_check_rune_spawn()
+[*][04/09/25 12:47:31] Lane creeps spawned
+[*][04/09/25 12:47:31] Runes spawned
+[*][04/09/25 12:47:31] Runes spawned
+[*][04/09/25 12:47:31] Bounty runes spawned
+[*][04/09/25 12:47:31] Running test_check_tormentor_spawn()
+[*][04/09/25 12:47:31] Lane creeps spawned
+[*][04/09/25 12:47:31] Tormentors spawned
+[*][04/09/25 12:47:31] Bounty runes spawned
+[*][04/09/25 12:47:31] Tormentors spawned
+[*][04/09/25 12:47:31] Running test_check_wisdom_rune_spawn()
+[*][04/09/25 12:47:31] Wisdom runes spawned
+[*][04/09/25 12:47:31] Lane creeps spawned
+[*][04/09/25 12:47:31] Bounty runes spawned
+[*][04/09/25 12:47:31] Wisdom runes spawned
+[*][04/09/25 12:48:10] Running test_Clock_ticks_when_started()
+[*][04/09/25 12:48:10] Lane creeps spawned
+[*][04/09/25 12:48:10] Bounty runes spawned
+[*][04/09/25 12:48:12] Running test_check_bounty_rune_spawn()
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Bounty runes spawned
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Running test_check_forrest_creeps_spawned()
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Forrest creeps spawned
+[*][04/09/25 12:48:12] Bounty runes spawned
+[*][04/09/25 12:48:12] Forrest creeps spawned
+[*][04/09/25 12:48:12] Running test_check_lotus_spawn()
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Lotuses spawned
+[*][04/09/25 12:48:12] Bounty runes spawned
+[*][04/09/25 12:48:12] Lotuses spawned
+[*][04/09/25 12:48:12] Running test_check_rune_spawn()
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Runes spawned
+[*][04/09/25 12:48:12] Bounty runes spawned
+[*][04/09/25 12:48:12] Runes spawned
+[*][04/09/25 12:48:12] Running test_check_tormentor_spawn()
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Tormentors spawned
+[*][04/09/25 12:48:12] Tormentors spawned
+[*][04/09/25 12:48:12] Bounty runes spawned
+[*][04/09/25 12:48:12] Running test_check_wisdom_rune_spawn()
+[*][04/09/25 12:48:12] Lane creeps spawned
+[*][04/09/25 12:48:12] Wisdom runes spawned
+[*][04/09/25 12:48:12] Bounty runes spawned
+[*][04/09/25 12:48:12] Wisdom runes spawned
+[*][04/09/25 12:48:55] Running test_Clock_ticks_when_started()
+[*][04/09/25 12:48:55] Lane creeps spawned
+[*][04/09/25 12:48:55] Bounty runes spawned
+[*][04/09/25 12:48:57] Running test_check_bounty_rune_spawn()
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Running test_check_forrest_creeps_spawned()
+[*][04/09/25 12:48:57] Bounty runes spawned
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Forrest creeps spawned
+[*][04/09/25 12:48:57] Bounty runes spawned
+[*][04/09/25 12:48:57] Forrest creeps spawned
+[*][04/09/25 12:48:57] Running test_check_lane_creep_spawn()
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Bounty runes spawned
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Running test_check_lotus_spawn()
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Lotuses spawned
+[*][04/09/25 12:48:57] Bounty runes spawned
+[*][04/09/25 12:48:57] Lotuses spawned
+[*][04/09/25 12:48:57] Running test_check_rune_spawn()
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Runes spawned
+[*][04/09/25 12:48:57] Bounty runes spawned
+[*][04/09/25 12:48:57] Runes spawned
+[*][04/09/25 12:48:57] Running test_check_tormentor_spawn()
+[*][04/09/25 12:48:57] Lane creeps spawned
+[*][04/09/25 12:48:57] Tormentors spawned
+[*][04/09/25 12:48:58] Tormentors spawned
+[*][04/09/25 12:48:58] Bounty runes spawned
+[*][04/09/25 12:48:58] Running test_check_wisdom_rune_spawn()
+[*][04/09/25 12:48:58] Lane creeps spawned
+[*][04/09/25 12:48:58] Wisdom runes spawned
+[*][04/09/25 12:48:58] Bounty runes spawned
+[*][04/09/25 12:48:58] Wisdom runes spawned
+[*][04/09/25 12:49:14] Running test_Clock_ticks_when_started()
+[*][04/09/25 12:49:14] Lane creeps spawned
+[*][04/09/25 12:49:14] Bounty runes spawned
+[*][04/09/25 12:49:16] Running test_check_bounty_rune_spawn()
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Running test_check_forrest_creeps_spawned()
+[*][04/09/25 12:49:16] Bounty runes spawned
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Forrest creeps spawned
+[*][04/09/25 12:49:16] Bounty runes spawned
+[*][04/09/25 12:49:16] Forrest creeps spawned
+[*][04/09/25 12:49:16] Running test_check_lane_creep_spawn()
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Bounty runes spawned
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Running test_check_lotus_spawn()
+[*][04/09/25 12:49:16] Lotuses spawned
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Bounty runes spawned
+[*][04/09/25 12:49:16] Lotuses spawned
+[*][04/09/25 12:49:16] Running test_check_rune_spawn()
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Runes spawned
+[*][04/09/25 12:49:16] Bounty runes spawned
+[*][04/09/25 12:49:16] Runes spawned
+[*][04/09/25 12:49:16] Running test_check_tormentor_spawn()
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Tormentors spawned
+[*][04/09/25 12:49:16] Bounty runes spawned
+[*][04/09/25 12:49:16] Tormentors spawned
+[*][04/09/25 12:49:16] Running test_check_wisdom_rune_spawn()
+[*][04/09/25 12:49:16] Lane creeps spawned
+[*][04/09/25 12:49:16] Wisdom runes spawned
+[*][04/09/25 12:49:16] Wisdom runes spawned
+[*][04/09/25 12:49:16] Bounty runes spawned
+[*][04/09/25 12:50:04] Running test_Clock_ticks_when_started()
+[*][04/09/25 12:50:04] Lane creeps spawned
+[*][04/09/25 12:50:04] Bounty runes spawned
+[*][04/09/25 12:50:06] Running test_check_bounty_rune_spawn()
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Bounty runes spawned
+[*][04/09/25 12:50:06] Bounty runes spawned
+[*][04/09/25 12:50:06] Running test_check_forrest_creeps_spawned()
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Forrest creeps spawned
+[*][04/09/25 12:50:06] Bounty runes spawned
+[*][04/09/25 12:50:06] Forrest creeps spawned
+[*][04/09/25 12:50:06] Running test_check_lane_creep_spawn()
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Bounty runes spawned
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Running test_check_lotus_spawn()
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Lotuses spawned
+[*][04/09/25 12:50:06] Bounty runes spawned
+[*][04/09/25 12:50:06] Lotuses spawned
+[*][04/09/25 12:50:06] Running test_check_rune_spawn()
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Runes spawned
+[*][04/09/25 12:50:06] Runes spawned
+[*][04/09/25 12:50:06] Bounty runes spawned
+[*][04/09/25 12:50:06] Running test_check_tormentor_spawn()
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Tormentors spawned
+[*][04/09/25 12:50:06] Tormentors spawned
+[*][04/09/25 12:50:06] Bounty runes spawned
+[*][04/09/25 12:50:06] Running test_check_wisdom_rune_spawn()
+[*][04/09/25 12:50:06] Lane creeps spawned
+[*][04/09/25 12:50:06] Wisdom runes spawned
+[*][04/09/25 12:50:06] Bounty runes spawned
+[*][04/09/25 12:50:06] Wisdom runes spawned
+[*][04/09/25 12:50:36] Running test_Clock_ticks_when_started()
+[*][04/09/25 12:50:36] Lane creeps spawned
+[*][04/09/25 12:50:36] Bounty runes spawned
+[*][04/09/25 12:50:38] Running test_check_bounty_rune_spawn()
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Bounty runes spawned
+[*][04/09/25 12:50:38] Bounty runes spawned
+[*][04/09/25 12:50:38] Running test_check_forrest_creeps_spawned()
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Forrest creeps spawned
+[*][04/09/25 12:50:38] Bounty runes spawned
+[*][04/09/25 12:50:38] Forrest creeps spawned
+[*][04/09/25 12:50:38] Running test_check_lane_creep_spawn()
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Bounty runes spawned
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Running test_check_lotus_spawn()
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Lotuses spawned
+[*][04/09/25 12:50:38] Bounty runes spawned
+[*][04/09/25 12:50:38] Lotuses spawned
+[*][04/09/25 12:50:38] Running test_check_rune_spawn()
+[*][04/09/25 12:50:38] Runes spawned
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Bounty runes spawned
+[*][04/09/25 12:50:38] Runes spawned
+[*][04/09/25 12:50:38] Running test_check_tormentor_spawn()
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Tormentors spawned
+[*][04/09/25 12:50:38] Tormentors spawned
+[*][04/09/25 12:50:38] Bounty runes spawned
+[*][04/09/25 12:50:38] Running test_check_wisdom_rune_spawn()
+[*][04/09/25 12:50:38] Lane creeps spawned
+[*][04/09/25 12:50:38] Wisdom runes spawned
+[*][04/09/25 12:50:38] Bounty runes spawned
+[*][04/09/25 12:50:38] Wisdom runes spawned
+[*][04/09/25 12:51:22] Running test_Clock_ticks_when_started()
+[*][04/09/25 12:51:22] Lane creeps spawned
+[*][04/09/25 12:51:22] Bounty runes spawned
+[*][04/09/25 12:51:24] Running test_check_bounty_rune_spawn()
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Running test_check_forrest_creeps_spawned()
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Forrest creeps spawned
+[*][04/09/25 12:51:24] Forrest creeps spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Running test_check_lane_creep_spawn()
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Running test_check_lotus_spawn()
+[*][04/09/25 12:51:24] Lotuses spawnedwned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Lotuses spawned
+[*][04/09/25 12:51:24] Running test_check_rune_spawn()
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Runes spawned
+[*][04/09/25 12:51:24] Runes spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Running test_check_tormentor_spawn()
+[*][04/09/25 12:51:24] Tormentors spawned
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Tormentors spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Running test_check_wisdom_rune_spawn()
+[*][04/09/25 12:51:24] Lane creeps spawned
+[*][04/09/25 12:51:24] Wisdom runes spawned
+[*][04/09/25 12:51:24] Bounty runes spawned
+[*][04/09/25 12:51:24] Wisdom runes spawned
+[*][06/09/25 09:32:27] Lane creeps spawned
+[*][06/09/25 09:32:27] Bounty runes spawned
+[*][06/09/25 09:32:57] Lane creeps spawned
+[*][06/09/25 09:33:27] Lane creeps spawned
+[*][06/09/25 09:33:27] Forrest creeps spawned
+[*][06/09/25 09:33:57] Lane creeps spawned
+[*][06/09/25 09:34:27] Lane creeps spawned
+[*][06/09/25 09:34:27] Forrest creeps spawned
+[*][06/09/25 09:34:27] Runes spawned
+[*][06/09/25 09:34:57] Lane creeps spawned
+[*][06/09/25 09:35:16] Bounty runes spawned
+[*][06/09/25 09:35:16] Running test_clock_ticks_when_started()
+[*][06/09/25 09:35:16] Lane creeps spawned
+[*][06/09/25 09:35:16] Bounty runes spawned
+[*][06/09/25 09:35:18] Forrest creeps spawned
+[*][06/09/25 09:35:18] Lane creeps spawned
+[*][06/09/25 09:35:18] Runes spawned
+[*][06/09/25 09:35:18] Tormentor spawned
+[*][06/09/25 09:35:18] Wisdom runes spawned
+[*][06/09/25 09:40:05] Lane creeps spawned
+[*][06/09/25 09:40:05] Bounty runes spawned
+[*][06/09/25 09:40:35] Lane creeps spawned
+[*][06/09/25 09:41:05] Lane creeps spawned
+[*][06/09/25 09:41:05] Forrest creeps spawned
+[*][06/09/25 09:41:35] Lane creeps spawned
+[*][06/09/25 09:42:05] Lane creeps spawned
+[*][06/09/25 09:42:05] Forrest creeps spawned
+[*][06/09/25 09:42:05] Runes spawned
+[*][06/09/25 09:43:08] Lane creeps spawned
+[*][06/09/25 09:43:08] Bounty runes spawned
+[*][06/09/25 09:43:37] Lane creeps spawned
+[*][06/09/25 09:44:08] Lane creeps spawned
+[*][06/09/25 09:44:08] Forrest creeps spawned
+[*][06/09/25 09:45:19] Lane creeps spawned
+[*][06/09/25 09:45:19] Bounty runes spawned
+[*][06/09/25 09:45:24] Lane creeps spawned
+[*][06/09/25 09:45:24] Bounty runes spawned
+[*][06/09/25 09:50:33] Lane creeps spawned
+[*][06/09/25 09:50:33] Bounty runes spawned
+[*][06/09/25 09:51:03] Lane creeps spawned
+[*][06/09/25 09:51:33] Lane creeps spawned
+[*][06/09/25 09:51:33] Forrest creeps spawned
+[*][06/09/25 09:52:03] Lane creeps spawned
+[*][06/09/25 09:52:33] Lane creeps spawned
+[*][06/09/25 09:52:33] Bounty runes spawned
+[*][06/09/25 09:53:03] Lane creeps spawned
+[*][06/09/25 09:53:33] Lane creeps spawned
+[*][06/09/25 09:53:33] Forrest creeps spawned
+[*][06/09/25 09:53:52] Lane creeps spawned
+[*][06/09/25 09:53:52] Bounty runes spawned
+[*][06/09/25 09:54:22] Lane creeps spawned
+[*][06/09/25 09:54:52] Lane creeps spawned
+[*][06/09/25 09:54:52] Forrest creeps spawned
+[*][06/09/25 09:55:35] Lane creeps spawned
+[*][06/09/25 09:55:35] Bounty runes spawned
+[*][06/09/25 09:56:02] Lane creeps spawned
+[*][06/09/25 09:56:02] Bounty runes spawned
+[*][06/09/25 09:56:13] Lane creeps spawned
+[*][06/09/25 09:56:13] Bounty runes spawned
+[*][06/09/25 09:56:17] Lane creeps spawned
+[*][06/09/25 09:56:17] Bounty runes spawned
+[*][06/09/25 09:58:46] Starting clock.
+[*][06/09/25 09:58:46] Lane creeps spawned
+[+][06/09/25 09:58:46] Clock Started.
+[*][06/09/25 09:58:46] Bounty runes spawned
+[*][06/09/25 09:58:51] Stopping clock.
+[*][06/09/25 09:58:51] Clock stopped.
+[*][06/09/25 10:00:27] Starting clock.
+[*][06/09/25 10:00:27] Lane creeps spawned
+[+][06/09/25 10:00:27] Clock Started.
+[*][06/09/25 10:00:27] Bounty runes spawned
+[*][06/09/25 10:00:30] Stopping clock.
+[+][06/09/25 10:00:30] Clock stopped.
+[*][06/09/25 10:00:30] Starting clock.
+[*][06/09/25 10:00:30] Lane creeps spawned
+[+][06/09/25 10:00:30] Clock Started.
+[*][06/09/25 10:00:30] Bounty runes spawned
+[*][06/09/25 10:01:00] Lane creeps spawned
+[*][06/09/25 10:01:30] Lane creeps spawned
+[*][06/09/25 10:01:30] Forrest creeps spawned
+[*][06/09/25 10:01:34] Stopping clock.
+[+][06/09/25 10:01:34] Clock stopped.
+[*][06/09/25 10:04:02] Starting clock.
+[*][06/09/25 10:04:02] Lane creeps spawned
+[+][06/09/25 10:04:02] Clock Started.
+[*][06/09/25 10:04:02] Bounty runes spawned
+[*][06/09/25 10:04:31] Lane creeps spawned
+[*][06/09/25 10:05:01] Lane creeps spawned
+[*][06/09/25 10:05:01] Forrest creeps spawned
