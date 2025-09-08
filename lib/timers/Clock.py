@@ -1,35 +1,3 @@
-import time
-import threading
-from playsound3 import playsound
-import lib.logger
-from settings import *
-
-
-class SpawnEvent:
-    def __init__(self, name, frequency, sound_path, require_nonzero_minute=True):
-        self.name = name
-        self.frequency = frequency
-        self.sound_path = sound_path
-        self.require_nonzero_minute = require_nonzero_minute
-        self.last_triggered = None
-
-    def should_trigger(self, total_seconds, minutes):
-        """Check if the event should trigger at this time."""
-        if total_seconds % self.frequency != 0:
-            return False
-        if self.require_nonzero_minute and minutes == 0:
-            return False
-        if self.last_triggered == total_seconds:
-            return False
-        return True
-
-    def trigger(self, total_seconds):
-        """Mark as triggered and log the event."""
-        self.last_triggered = total_seconds
-        lib.logger.info(f"{self.name} spawned", 4)
-        threading.Thread(target=playsound, args=(self.sound_path,), daemon=True).start()
-
-
 class Clock:
     def __init__(self):
         self.start_time = None
@@ -67,12 +35,18 @@ class Clock:
         return hours, minutes, seconds, total_seconds
 
     def _check_loop(self):
+        next_tick = time.time()
+        interval = 0.4  # how often we check
         while not self._stop_flag:
             h, m, s, total_seconds = self.get_time()
             for event in self.events:
                 if event.should_trigger(total_seconds, m):
                     event.trigger(total_seconds)
-            time.sleep(0.4)
+
+            # schedule next loop iteration precisely
+            next_tick += interval
+            sleep_time = max(0, next_tick - time.time())
+            time.sleep(sleep_time)
 
     def stop(self):
         lib.logger.info("Stopping clock.", 4)
@@ -83,4 +57,3 @@ class Clock:
         """Increase or decrease the clock time by a number of seconds."""
         if self.start_time:
             self.start_time -= seconds  # moving start time backward/forward changes elapsed
-
